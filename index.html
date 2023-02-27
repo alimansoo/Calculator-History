@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main">
+        <div class="swich-mode mb-4">
+            <div class="swich-mode_item">
+                Neomorfism
+            </div>
+            <div class="swich-mode_item active">
+                Standard
+            </div>
+        </div>
+        <div class="container" id="CalcContainer" theme="Standard">
+            <div class="display_container">
+                <div id="previous-display"></div>
+                <div id="display">0</div>
+            </div>
+            <div id="history">
+                <svg fill="#fff" height="20px" width="20px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                     viewBox="0 0 219.15 219.15" xml:space="preserve">
+                    <g>
+                        <path d="M109.575,0C49.156,0,0.001,49.155,0.001,109.574c0,60.42,49.154,109.576,109.573,109.576
+                            c60.42,0,109.574-49.156,109.574-109.576C219.149,49.155,169.995,0,109.575,0z M109.575,204.15
+                            c-52.148,0-94.573-42.427-94.573-94.576C15.001,57.426,57.427,15,109.575,15c52.148,0,94.574,42.426,94.574,94.574
+                            C204.149,161.724,161.723,204.15,109.575,204.15z"/>
+                        <path d="M166.112,108.111h-52.051V51.249c0-4.142-3.357-7.5-7.5-7.5c-4.142,0-7.5,3.358-7.5,7.5v64.362c0,4.142,3.358,7.5,7.5,7.5
+                            h59.551c4.143,0,7.5-3.358,7.5-7.5C173.612,111.469,170.254,108.111,166.112,108.111z"/>
+                    </g>
+                </svg>
+            </div>
+            <div class="buttons">
+                <div class="number_btn">
+                    <button class="button" btn-number>1</button>
+                    <button class="button" btn-number>2</button>
+                    <button class="button" btn-number>3</button>
+                    <button class="button" btn-number>4</button>
+                    <button class="button" btn-number>5</button>
+                    <button class="button" btn-number>6</button>
+                    <button class="button" btn-number>7</button>
+                    <button class="button" btn-number>8</button>
+                    <button class="button" btn-number>9</button>
+                    <button class="button" btn-number>.</button>
+                    <button class="button" btn-number>0</button>
+                    <button class="button" btn-clearall>CA</button>
+                </div>
+                <div class="operator_btn">
+                    <button class="button" btn-clear>C</button>
+                    <button class="button" btn-delete>DEL</button>
+                    <button class="button" btn-opt>+</button>
+                    <button class="button" btn-opt>-</button>
+                    <button class="button" btn-opt>÷</button>
+                    <button class="button" btn-opt>*</button>
+                    <button class="button" btn-equal>=</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
+        </div>
+
+    </div>
+    
+    <script src="./script.js"></script> 
+</body>
+</html>
